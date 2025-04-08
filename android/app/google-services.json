@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114710315807",
+    "project_id": "rapport-de-stage-c4eb5",
+    "storage_bucket": "rapport-de-stage-c4eb5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114710315807:android:887c24eda16912be8a662a",
+        "android_client_info": {
+          "package_name": "com.example.mon_rapport_de_stage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOu9mGCaSOYpjW-HgS2cHBH8erDfyuK40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
