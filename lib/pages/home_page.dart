@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'rapport_page.dart'; // Assure-toi que le fichier existe
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -113,6 +114,16 @@ class _HomePageState extends State<HomePage> {
           "Suivi de stage - ${user!.displayName ?? user!.email ?? 'Utilisateur'}",
         ),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.description),
+            tooltip: "Rédiger le rapport",
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const RapportPage()),
+              );
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.logout),
             tooltip: "Se déconnecter",
